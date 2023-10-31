@@ -5,6 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/ConnectScreen.unity
+    guid: 52f9217ad8f8bb343a9ffd9b1754ddfc
   - enabled: 1
     path: Assets/Scenes/Start Screen.unity
     guid: 708fa55b7f64330498ed97bd87e1f89d
