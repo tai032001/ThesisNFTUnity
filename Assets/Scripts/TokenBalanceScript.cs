@@ -14,14 +14,14 @@ public class TokenBalanceScript : MonoBehaviour
 
     }
 
-    public static string ERC_20_Contract = "0x117Ed9670840c7722994098568c2EDd9BdFbeFcC";
+    public static string ERC_20_Contract = "0x659a1497306b2225a261e6b85789bD641C290EcD";
     public static string addressWallet;
     public async void getTokenBalance()
     {
         try
         {
             var address = await ThirdwebManager.Instance.SDK.wallet.GetAddress();
-            Contract contract = ThirdwebManager.Instance.SDK.GetContract(ERC_20_Contract);
+            Contract contract = ThirdwebManager.Instance.SDK.GetContract("0x117Ed9670840c7722994098568c2EDd9BdFbeFcC");
             var data = await contract.ERC20.BalanceOf(address);
             TokenBalance.text = "Token Cherry: " + data.displayValue;
         }

@@ -604,7 +604,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4404896360829706404, guid: 379ed01658d62a14484f953196ff19db, type: 3}
       propertyPath: relayerUrl
-      value: https://api.defender.openzeppelin.com/autotasks/83000f0d-a924-4d36-a3dc-aa15a8a6c298/runs/webhook/56508fd6-7db9-46b4-9be1-4685adcc7590/7hMPkezrJBsPJayT6zUPw8
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4404896360829706404, guid: 379ed01658d62a14484f953196ff19db, type: 3}
       propertyPath: activeChain
@@ -612,7 +612,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4404896360829706404, guid: 379ed01658d62a14484f953196ff19db, type: 3}
       propertyPath: forwarderAddress
-      value: 0xc82BbE41f2cF04e3a8efA18F7032BDD7f6d98a81
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4404896360829706404, guid: 379ed01658d62a14484f953196ff19db, type: 3}
       propertyPath: supportedChains.Array.size
