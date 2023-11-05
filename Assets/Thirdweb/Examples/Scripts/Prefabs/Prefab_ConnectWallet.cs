@@ -34,6 +34,7 @@ namespace Thirdweb.Examples
         [Header("Connected States")]
         public GameObject StartScreen;
         public Button PlayGameButton;
+        public Text Character;
 
         [Header("SETUP")]
         [Header("Wallets you want to support")]
@@ -409,6 +410,7 @@ namespace Thirdweb.Examples
                 ConnectedDropdownPanel.SetActive(false);
                 OnDisconnect?.Invoke();
                 PlayGameButton.gameObject.SetActive(false);
+                Character.gameObject.SetActive(false);
             }
             catch (System.Exception e)
             {
