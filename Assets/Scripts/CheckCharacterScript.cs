@@ -6,15 +6,18 @@ using Thirdweb;
 using System.Threading.Tasks;
 using System;
 using System.Linq;
+using Thirdweb.Examples;
 public class CheckCharacterScript : MonoBehaviour
 {
     [SerializeField] Text Character;
     public Button CharacterClaim;
     public Button CheckCharacter;
     public Button ButtonPlay;
+    public Image characterImage;
+    // public Prefab_NFT prefabNft;
 
     public static string CharacterContract = "0x3694c04aBfD11A4B04668Bfe0AF744ac96Ee3972";
-    public static string addressWallet;
+
     public async void checkCharacter()
     {
         try
@@ -26,13 +29,22 @@ public class CheckCharacterScript : MonoBehaviour
             Debug.Log(data);
             if (dataa >= 1)
             {
+                Character.gameObject.SetActive(true);
                 Character.text = "Current character: Virtual Guy";
                 ButtonPlay.gameObject.SetActive(true);
                 CharacterClaim.gameObject.SetActive(false);
                 CheckCharacter.gameObject.SetActive(false);
+                characterImage.gameObject.SetActive(true);
+                // NFT nft = await contract.ERC1155.Get("0");
+                // Prefab_NFT nftLoad = prefabNft.GetComponent<Prefab_NFT>();
+                // nftLoad.LoadNFT(nft);
+                // Prefab_NFT nftPrefabScript = prefabNft.GetComponent<Prefab_NFT>();
+                // nftPrefabScript.LoadNFT(nft);
+                // nftPrefabScript.gameObject.SetActive(true);
             }
             else
             {
+                Character.gameObject.SetActive(true);
                 Character.text = "Please claim character to play";
                 CharacterClaim.gameObject.SetActive(true);
                 ButtonPlay.gameObject.SetActive(false);

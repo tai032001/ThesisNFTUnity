@@ -16,5 +16,7 @@ public class ToggleClaim : MonoBehaviour
     public void exit()
     {
         claim.gameObject.SetActive(false);
+        toggleClaim.gameObject.SetActive(true);
+
     }
 }
