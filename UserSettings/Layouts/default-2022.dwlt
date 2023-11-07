@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Console
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -414,23 +414,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 4aa7ffff90a7ffff1ca9ffff1eaafffffaaaffffc0afffff10b4ffff12b5ffffdeb5ffffa4baffff02c3ffff8ec3ffff56c8ffff3cc9ffff3ecaffff0acbffffd0cfffffbcd3ffffbed4ffff8ad5ffff50daffffb6dcffffbaddffff88deffff50e3ffff6ee4ffff72e5ffff40e6ffff08ebffffceebffffd2ecffffb0edffff78f2ffff1afbffff12950000ac9500009496000040a400005ea50000f8a50000e0a6000032b7000050b80000eab80000d2b90000e0be0000ecbe0000f4be0000eebf00001ec000003ac00000eacd000084ce00006ccf0000
+      m_SelectedIDs: c05b0000
+      m_LastClickedID: 23488
+      m_ExpandedIDs: 68f8ffff1afbffff885b0000c05b0000ca5b0000d65b0000e25b0000065c0000225c00005c5c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: ButtonExit
+        m_OriginalName: ButtonExit
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 23498
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -822,9 +822,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 764.6057, y: 475.72937, z: 0.49119943}
+    m_Target: {x: 948.40704, y: 535.57275, z: -4.851432}
     speed: 2
-    m_Value: {x: 764.6057, y: 475.72937, z: 0.49119943}
+    m_Value: {x: 948.40704, y: 535.57275, z: -4.851432}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -874,9 +874,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 659.0862
+    m_Target: 611.73254
     speed: 2
-    m_Value: 659.0862
+    m_Value: 611.73254
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -942,7 +942,7 @@ MonoBehaviour:
     m_ControlHash: 1412526313
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 270
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -1027,7 +1027,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Fonts
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1035,16 +1035,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Fonts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\2DPlatformerBeginner
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 35}
-    m_SelectedIDs: 3cbd0000
-    m_LastClickedID: 48444
-    m_ExpandedIDs: 00000000ce660000d0660000d2660000d4660000d6660000d8660000da660000dc660000de660000e0660000e2660000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 2e670000
+    m_LastClickedID: 26414
+    m_ExpandedIDs: 00000000ce660000d0660000d2660000d4660000d6660000d8660000da660000dc660000de66000036670000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1097,10 +1097,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 88c00000
-    m_LastClickedInstanceID: 49288
+    m_SelectedInstanceIDs: c05b0000
+    m_LastClickedInstanceID: 23488
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000968400004a6a0000da6b0000b6f50000bcf50000e65f0000585c0000
+    m_ExpandedInstanceIDs: c6230000968400004a6a0000da6b0000b6f50000bcf50000e65f0000585c00002eee0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
