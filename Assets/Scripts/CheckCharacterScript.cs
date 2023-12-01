@@ -16,7 +16,7 @@ public class CheckCharacterScript : MonoBehaviour
     public Image characterImage;
     // public Prefab_NFT prefabNft;
 
-    public static string CharacterContract = "0xBE02BA066639F857C033B53Ea7EA7d8D4dEbd957";
+    public static string CharacterContract = "0x27A3c8743D92717cE2A226B1f7a6Ed5f40E85799";
 
     public async void checkCharacter()
     {
@@ -25,9 +25,9 @@ public class CheckCharacterScript : MonoBehaviour
             var address = await ThirdwebManager.Instance.SDK.wallet.GetAddress();
             Contract contract = ThirdwebManager.Instance.SDK.GetContract(CharacterContract);
             var data = await contract.ERC1155.Balance("0");
-            var dataa = Int32.Parse(data);
+            var dataQuantity = Int32.Parse(data);
             Debug.Log(data);
-            if (dataa >= 1)
+            if (dataQuantity >= 1)
             {
                 Character.gameObject.SetActive(true);
                 Character.text = "Current character: Virtual Guy";

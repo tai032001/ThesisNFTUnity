@@ -16,7 +16,7 @@ public class CharacterScript : MonoBehaviour
 
     public Image characterImage;
 
-    public static string CharacterContract = "0xBE02BA066639F857C033B53Ea7EA7d8D4dEbd957";
+    public static string CharacterContract = "0x27A3c8743D92717cE2A226B1f7a6Ed5f40E85799";
     public static string addressWallet;
     public async void getTokenBalance()
     {
